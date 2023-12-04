@@ -1,0 +1,10 @@
+{
+  // 这里的schema主要用于配置智能提示
+  "$schema": "node_modules/lerna/schemas/lerna-schema.json",
+  "npmClient": "pnpm", // 由于我们使用的pnpm，这里需要配置成pnpm
+  "useWorkspaces": true,
+  "packages": [
+    "packages/*"
+  ],
+  "version": "0.0.0"
+}
